@@ -1,18 +1,18 @@
 <html>
     <head>
-    <title>Simple Interest Calculator</title>    
+    <title>Web App-Simple Interest Calculator</title>    
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="maindiv">
-            
+                        
                     <h1>Simple Interest Calculator</h1>
                     <label for="principal">Amount</label></label>
-                    <input type="number"  id="principal">  <br>
+                    <input type="number"  id="principal" placeholder="Eg: 1000">  <br>
                     <div class="slidecontainer" onchange="rangeslider()">
                         <label for="myRange">Interest Rate </label>
-                        <input type="range" min="0.1" max="22.1" value="10.5" step="0.1" class="slider" id="myRange"><span id="demo">10.50%</span>
+                        <input type="range" min="1" max="20" value="10.5" step="0.1" class="slider" id="myRange"><span id="demo">10.50%</span>
                     </div><br>
                     <label for="years">No. of Years</label>
                     <select name="years" id="years">
@@ -30,9 +30,9 @@
                         <option value=20>20</option>
                     </select><br>
                     <span id="result"></span><br>
-                    <button onclick = "simpleinterest()" >Calculate Interest</button> </td>
+                    <button onclick = "simpleinterest()" >Calculate Interest</button>
                     <p><span id="outer1"></span></p>
-                    <footer>Ⓒ This Calculator belongs to Satwik V Bolar</footer>
+                    <footer>Ⓒ Everyone can get rich</footer>
 
         </div>
         
